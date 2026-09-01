@@ -113,6 +113,24 @@ Fora do trabalho, dedico tempo a explorar padrões de arquitetura de software e 
 
 ---
 
+## Gráfico de Contribuições
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kaua-Martins-Santos/Kaua-Martins-Santos/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kaua-Martins-Santos/Kaua-Martins-Santos/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Kaua-Martins-Santos/Kaua-Martins-Santos/output/pacman-contribution-graph.svg">
+</picture>
+
+<sub>gerado com <a href="https://abozanona.github.io/pacman-contribution-graph/">abozanona/pacman-contribution-graph</a></sub>
+
+</div>
+
+<br>
+
+---
+
 ## Projetos em Destaque
 
 <div align="center">
