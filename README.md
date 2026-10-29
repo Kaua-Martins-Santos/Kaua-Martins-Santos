@@ -234,23 +234,22 @@ I'm documenting my AI work the same way I'd ship anything else: scoped problem, 
 
   <div align="center">
 
-    Always open to a conversation about engineering, architecture, or new opportunities.
+  Always open to a conversation about engineering, architecture, or new opportunities.
 
-    [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kauã-martins-479a6a38b)
+  [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kauã-martins-479a6a38b)
     [![GitHub](https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kaua-Martins-Santos)
     [![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:martins.kaua.0702@gmail.com)
 
-    </div>
+  </div>
 
-    <br>
-
+  <br>
     ---
 
-    <div align="center">
+  <div align="center">
 
-    <i>"Great software isn't just code — it's solving problems that matter."</i>
+  <i>"Great software isn't just code — it's solving problems that matter."</i>
 
-    </div>
+  </div>
     
 </tr></p></p>
   </tr>
