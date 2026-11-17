@@ -19,6 +19,9 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kaua-Martins-Santos)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kauã-martins-479a6a38b)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:martins.kaua.0702@gmail.com)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Martinsk123)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/martinskaua)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00C853?style=for-the-badge&logo=vercel&logoColor=white)](https://kaua-exe-portifolio.vercel.app)
 
 </div>
 
@@ -28,13 +31,15 @@
 
 ## About Me
 
-I'm a developer working at **MSI Soluções**, where I build and support ERP systems used in production by real clients — the kind of environment where a bad migration or a wrong `JOIN` shows up as someone's operation stopping on a Monday morning.
+I'm a developer intern at **CI&T**, in the **NextGen AI** program, since November 2026.
 
-Day to day, that means writing stored procedures and views in PostgreSQL, building REST APIs, maintaining React Native applications for warehouse and logistics operations, and occasionally going into Delphi or Crystal Reports to fix something that's been running for over a decade. It's a mix that forces you to think about both the elegance of a solution and whether it will actually survive contact with production data.
+Before that, I spent a year at **MSI Soluções** building and supporting ERP systems used in production by real clients — the kind of environment where a bad migration or a wrong `JOIN` shows up as someone's operation stopping on a Monday morning. That meant writing stored procedures and views in PostgreSQL, building REST APIs, maintaining React Native applications for warehouse and logistics operations, and occasionally going into Delphi or Crystal Reports to fix something that had been running for over a decade. It's a mix that forces you to think about both the elegance of a solution and whether it will actually survive contact with production data.
 
-What I care about most is the layer underneath the UI: database design, query performance, and API architecture that doesn't fall apart the moment requirements change. I'm equally comfortable debugging a recursive SQL view at 6pm as I am building a new mobile screen from scratch the next morning.
+What I care about most is the layer underneath the UI: database design, query performance, and API architecture that doesn't fall apart the moment requirements change. I'm as comfortable debugging a recursive SQL view at 6pm as I am building a new mobile screen from scratch the next morning.
 
-Lately I've been pushing that same engineering mindset into **AI-powered software**: building assistants and automations on top of LLMs, and treating them like any other system — with clear boundaries, guardrails, and measured results instead of vibes.
+Now I'm pushing that same engineering mindset into **AI-powered software**: agents, RAG, fine-tuning and evals — treating LLM systems like any other system, with clear boundaries, guardrails, and measured results instead of vibes.
+
+I also freelance: I maintain and extend a discount-club platform running in production for a real client.
 
 <br>
 
@@ -72,7 +77,7 @@ Lately I've been pushing that same engineering mindset into **AI-powered softwar
 
 **AI & LLM**
 
-<sub>LLM APIs · Prompt Engineering · RAG · Embeddings · Tool Calling · Agent Orchestration · Evaluation</sub>
+<sub>LLM APIs · Prompt Engineering · RAG · Embeddings · Tool Calling · Agent Orchestration · Evaluation · Fine-tuning (Hugging Face Transformers) · scikit-learn</sub>
 
 <br><br>
 
@@ -105,8 +110,8 @@ Lately I've been pushing that same engineering mindset into **AI-powered softwar
 | Area | Focus |
 |:--|:--|
 | 🤖 **AI Engineering** | Building LLM-powered features: RAG, tool calling, and evaluated agents |
-| 🏢 **ERP Development** | Maintaining and extending mission-critical ERP modules |
-| 📱 **React Native** | Building production mobile tools for logistics & warehouse ops |
+| 🧠 **Machine Learning** | Fine-tuning small models and competing on Kaggle |
+| 🚀 **Freelance Products** | Shipping features to platforms running in production |
 | 🔌 **API Development** | Designing clean, maintainable REST services |
 | 🏗️ **Software Architecture** | Structuring systems that scale without becoming fragile |
 | 🐘 **PostgreSQL** | Query optimization, views, and stored procedure design |
@@ -125,9 +130,13 @@ I'm documenting my AI work the same way I'd ship anything else: scoped problem, 
 
 | Project | What it does | Status |
 |:--|:--|:--|
+| [**Delivery Agent**](https://github.com/Kaua-Martins-Santos/delivery-agent) | Multi-tenant customer-service agent for delivery stores — RAG over each store's knowledge base, tool calling for real lookups, and an eval suite | 🚧 In progress |
+| [**RAG for HR**](https://github.com/Kaua-Martins-Santos/rag-rh-gemini) | HR policy chatbot with Gemini — embeddings + cosine similarity, answers only from context and says "not found" otherwise; compares answers with and without RAG | ✅ Done |
+| [**Synthetic Data for Fraud**](https://github.com/Kaua-Martins-Santos/genai-dados-sinteticos-fraude) | Gemini few-shot generation of synthetic fraud rows for a dataset with 0.17% fraud — fraud-class F1 0.69 → 0.73, with limits documented | ✅ Done |
+| [**Complaint Classifier**](https://huggingface.co/Martinsk123) | BERTimbau fine-tuned to classify complaint reasons in Olist e-commerce reviews, with training labels generated by Gemini — published on Hugging Face | 🚧 In progress |
+| [**Kaggle Competitions**](https://www.kaggle.com/martinskaua) | LLM Classification Finetuning (predicting human preference on Chatbot Arena) and Titanic | 🚧 In progress |
 | **Clinic Assistant (RAG)** | Internal assistant answering clinic staff questions over clinic data — pgvector retrieval, tool calling for live schedule lookups, and a 50-question evaluation set | 🚧 In progress |
 | **Text-to-SQL with Guardrails** | Natural language to read-only SQL over a sample schema, with query validation and safety limits | 📋 Planned |
-| **LoRA Fine-Tune** | Small model fine-tuned for a narrow task, published on Hugging Face with before/after metrics | 📋 Planned |
 
 </div>
 
@@ -159,13 +168,37 @@ I'm documenting my AI work the same way I'd ship anything else: scoped problem, 
 <tr>
 <td width="50%" valign="top">
 
-### 🏥 SaaS Medical Clinic Platform
+### 🏷️ EuPlus — Discount Club (Freelance)
 
-Multi-tenant SaaS for clinic management — scheduling, digital patient records, billing via Stripe, WhatsApp integration, and isolated environments per clinic on a single instance.
+Subscription discount club running in production. I took over the platform from another developer, moved repo, hosting and database to the client's accounts, and shipped a partner self-signup portal, a product catalog with member-only prices, and an order flow that notifies the partner on WhatsApp.
+
+**Stack:** `React 19` · `TypeScript` · `Vite` · `Tailwind` · `Netlify Functions` · `PostgreSQL (Neon)`
+
+[![Live Site](https://img.shields.io/badge/Live_Site-00C853?style=flat-square&logo=googlechrome&logoColor=white)](https://www.euplus.com.br)
+
+</td>
+<td width="50%" valign="top">
+
+### 📡 Remote Server Monitoring (ERP)
+
+Remote monitoring for the servers of the ERP's client companies, with no new infrastructure: a PL/Python function inside PostgreSQL collects 5 indicators (last backup, disk space, active users, system version, scheduled-job status via pg_timetable), logs in to the existing internal API with JWT and sends everything to a central database.
+
+**Stack:** `PostgreSQL` · `PL/Python` · `pg_timetable` · `REST API` · `JWT`
+
+![Private Code](https://img.shields.io/badge/Private_Code-555555?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏥 VivaCare — Clinic SaaS
+
+Multi-tenant SaaS for clinic management — scheduling, digital patient records, billing via Stripe, a per-clinic WhatsApp bot, and isolated environments per clinic on a single instance. I ran a full security audit that found a data leak between tenants in the owner dashboard, and fixed the isolation.
 
 **Stack:** `Next.js 15` · `TypeScript` · `Prisma` · `PostgreSQL` · `Stripe` · `AWS S3`
 
-![In Development](https://img.shields.io/badge/In_Development-D97757?style=flat-square)
+![Production Ready](https://img.shields.io/badge/Production_Ready-2EA043?style=flat-square) ![Private Code](https://img.shields.io/badge/Private_Code-555555?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
@@ -252,6 +285,30 @@ Pixel-art dashboard that turns running AI coding sessions into little characters
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎮 Motion Console — Phone as Controller
+
+Wii-style motion game console in the browser: the game runs on the PC and up to 4 phones become motion controllers using their own sensors — no app to install.
+
+**Stack:** `Web` · `Phone sensors` · `Local multiplayer`
+
+[![View Project](https://img.shields.io/badge/View_Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Kaua-Martins-Santos/Wii_Caseiro)
+
+</td>
+<td width="50%" valign="top">
+
+### 🌱 Smart Garden — IoT
+
+University team project: an ESP32 garden with sensors that controls irrigation, plus a web dashboard. I worked on architecture docs (RFC and ADRs), irrigation flowcharts, the test strategy, and automated tests.
+
+**Stack:** `ESP32` · `React` · `Vite` · `Vitest`
+
+[![View Project](https://img.shields.io/badge/View_Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Kaua-Martins-Santos/PROJETO-HORTA-INTELIGENTE)
+
+</td>
+</tr>
 </table>
 
 <div align="center">
@@ -273,6 +330,8 @@ Always open to a conversation about engineering, architecture, or new opportunit
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kauã-martins-479a6a38b)
 [![GitHub](https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kaua-Martins-Santos)
 [![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:martins.kaua.0702@gmail.com)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Martinsk123)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/martinskaua)
 
 </div>
 
